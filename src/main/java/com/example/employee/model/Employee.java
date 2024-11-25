@@ -41,7 +41,7 @@ public class Employee {
     @Min(value = 0, message = "Salary must be a positive number")
     private Double salary;
 
-    // Getters and Setters
+    
     public String getEmployeeId() {
         return employeeId;
     }
